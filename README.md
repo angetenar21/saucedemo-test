@@ -1,6 +1,6 @@
 # SauceDemo Test Automation
 
-This is a simple test automation setup for [SauceDemo](https://www.saucedemo.com). It's built with Python, Pytest, and Selenium, and uses the Page Object Model (POM) pattern to keep the code clean and easy to maintain.
+This is a simple test automation setup for [SauceDemo](https://www.saucedemo.com). It's built with Python, Pytest, and Selenium, and uses the Page Object Model (POM) pattern.
 
 ## Project Structure
 - `pages/`: Contains the Page Object Models for the different screens (login, cart, checkout, etc).
