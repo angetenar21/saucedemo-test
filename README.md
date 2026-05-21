@@ -40,10 +40,6 @@ pytest tests/test_cart.py
 pytest tests/test_login.py
 ```
 
-If you need to run a single specific test case, you can do it like this:
-```bash
-pytest tests/test_login.py::TestLogin::test_invalid_login
-```
 
 ## To view the test visually:
 
