@@ -45,9 +45,9 @@ If you need to run a single specific test case, you can do it like this:
 pytest tests/test_login.py::TestLogin::test_invalid_login
 ```
 
-## Running in slow motion (visual mode)
+## To view the test visually:
 
-By default, the tests run headlessly so they finish as fast as possible. If you're debugging or just want to watch the tests execute in an actual browser window:
+If you want to watch the tests execute in an actual browser window:
 
 1. Open `conftest.py` and comment out the `--headless` flag.
 2. Open `pages/base_page.py` and make sure `import time` is at the top of the file.
